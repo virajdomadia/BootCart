@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/signup.css" />
+    <title>BootCart | Login</title>
+  </head>
+  <body>
+    <img src="./img/loader.gif" class="loader" />
+    <div class="alert-box">
+      <img src="img/error.png" class="alert-img" alt="" />
+      <p class="alert-msg">Error message</p>
+    </div>
+    <div class="container">
+      <img src="./img/logo.png" class="logo" alt="" />
+      <div>
+        <input type="email" autocomplete="off" id="email" placeholder="email" />
+        <input
+          type="password"
+          autocomplete="off"
+          id="password"
+          placeholder="password"
+        />
+        <button class="submit-btn">Log In</button>
+      </div>
+      <a href="/signup" class="link">Don't have an account? Create one</a>
+    </div>
+    <script src="./js/form.js"></script>
+    <script src="./js/token.js"></script>
+  </body>
+</html>

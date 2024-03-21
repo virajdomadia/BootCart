@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/signup.css" />
+    <link rel="stylesheet" href="./css/seller.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="./img/loader.gif" class="loader" />
+    <div class="alert-box">
+      <img src="img/error.png" class="alert-img" alt="" />
+      <p class="alert-msg">Error message</p>
+    </div>
+    <img src="./img/logo.png" class="logo" />
+    <!--become seller element-->
+    <div class="become-seller hide">
+      <p class="heading">Become a Seller</p>
+      <p class="des">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut nesciunt
+        possimus dignissimos animi magni voluptates placeat natus quibusdam iste
+        deleniti totam facere, repellendus quis molestias harum atque ipsam
+        aperiam incidunt distinctio, corrupti, suscipit esse? Odio quam id
+        cupiditate debitis assumenda enim nobis, totam mollitia aliquam,
+        accusamus consectetur nulla ducimus est consequatur voluptatibus
+        perspiciatis reiciendis itaque repellat fugit.
+      </p>
+      <button class="btn" id="apply-btn">apply for seller account</button>
+    </div>
+    <!--apply form-->
+    <div class="apply-form">
+      <input
+        type="text"
+        id="business-name"
+        placeholder="business name/company name/shop name"
+      />
+      <textarea name="" id="business-add" placeholder="Address"></textarea>
+      <textarea name="" id="about" placeholder="About"></textarea>
+      <input type="text" name="" id="number" placeholder="number" />
+      <input type="checkbox" checked class="checkbox" id="terms-and-cond" />
+      <label for="terms-and-cond"
+        >agree to our <a href="">terms and conditions</a></label
+      >
+      <br />
+      <input type="checkbox" class="checkbox" id="legitInfo" />
+      <label for="legitInfo">all information is legit</label>
+      <button class="submit-btn" id="apply-form-btn">Apply</button>
+    </div>
+    <script src="./js/token.js"></script>
+    <script src="./js/seller.js"></script>
+  </body>
+</html>
